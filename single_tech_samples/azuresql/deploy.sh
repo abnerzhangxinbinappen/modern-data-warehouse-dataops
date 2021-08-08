@@ -36,6 +36,16 @@ set -o pipefail
 # RESOURCE_GROUP_NAME - resource group name
 # RESOURCE_GROUP_LOCATION - resource group location (ei. australiaeast)
 
+
+export GITHUB_REPO_URL=https://github.com/abnerzhangxinbinappen/modern-data-warehouse-dataops/tree/main/single_tech_samples/azuresql
+export GITHUB_PAT_TOKEN=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
+export DEPLOYMENT_ID=fjdke
+export BRANCH_NAME=main
+export RESOURCE_GROUP_NAME=azuresql-test
+export RESOURCE_GROUP_LOCATION=australiaeast
+export AZURESQL_SERVER_PASSWORD=mdw-dataops-SqlP@ss-fjdke
+export Username=sqlAdmin
+
 . ./scripts/common.sh
 . ./scripts/init_environment.sh
 
